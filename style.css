@@ -1739,6 +1739,11 @@ fieldset[disabled] .form-control {
   -o-transition: all 0.5s ease;
 }
 
+.about-icon {
+  width: 85px;
+  text-align: center;
+}
+
 /* 10.3 - Divider
 -------------------------------------------------------------------*/
 .divider {
@@ -2829,9 +2834,7 @@ button.mfp-arrow {
 }
 
 .mCS-bt-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-.mCS-bt-dark.mCSB_scrollTools
-  .mCSB_dragger.mCSB_dragger_onDrag
-  .mCSB_dragger_bar,
+.mCS-bt-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
 .mCS-bt-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
   background-color: #ee1d25;
 }
@@ -3819,16 +3822,8 @@ a.button-image:hover {
 .gradient-1 {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe7259+0,ffc456+100 */
   background: #fe7259; /* Old browsers */
-  background: -moz-linear-gradient(
-    left,
-    #fe7259 0%,
-    #ffc456 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    left,
-    #fe7259 0%,
-    #ffc456 100%
-  ); /* Chrome10-25,Safari5.1-6 */
+  background: -moz-linear-gradient(left, #fe7259 0%, #ffc456 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fe7259 0%, #ffc456 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to right,
     #fe7259 0%,
@@ -4365,7 +4360,7 @@ body.mobile .socials-icons ul {
     background-color: #fff;
     border-color: #e5e7e9;
   }
- 
+
   body.layer-active .navbar {
     background-color: #fff;
     border-color: #e5e7e9;
@@ -4540,7 +4535,7 @@ body.mobile .socials-icons ul {
     margin-bottom: 10px 10px !important;
   }
 }
-.youtube-btn{
+.youtube-btn {
   background-color: #ee1d25;
   border-radius: 6px;
   border: 0;
